@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baristas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
 </head>
 <body>
     <div>
@@ -30,11 +31,12 @@
 						<i class="fa-solid fa-basket-shopping"></i>
 						<div class="content-shopping-cart">
 							<span class="text">Carrito</span>
-							<span class="number">(0)</span>
+							<span id="numero">0</span>
 						</div>
 					</div>
 				</div>
 			</div>
+        </div>
 
 			<div class="container-navbar">
 				<nav class="navbar container">
@@ -153,7 +155,7 @@
 							</div>
 							<h3>Cafe Irish</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$4.60 <span>$5.30</span></p>
 						</div>
@@ -188,7 +190,7 @@
 							</div>
 							<h3>Cafe Inglés</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$5.70 <span>$7.30</span></p>
 						</div>
@@ -222,7 +224,7 @@
 							</div>
 							<h3>Cafe Australiano</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$3.20</p>
 						</div>
@@ -253,7 +255,7 @@
 							</div>
 							<h3>Cafe Helado</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$5.60</p>
 						</div>
@@ -316,7 +318,7 @@
 							</div>
 							<h3>Cafe Irish</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$4.60 <span>$5.30</span></p>
 						</div>
@@ -351,7 +353,7 @@
 							</div>
 							<h3>Cafe Inglés</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$5.70 <span>$7.30</span></p>
 						</div>
@@ -383,7 +385,7 @@
 							</div>
 							<h3>Cafe Viena</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$3.85 <span>$5.50</span></p>
 						</div>
@@ -414,7 +416,7 @@
 							</div>
 							<h3>Cafe Liqueurs</h3>
 							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
+								<i class="fa-solid fa-basket-shopping" onclick="aumentarNumero()"></i>
 							</span>
 							<p class="price">$5.60</p>
 						</div>
@@ -584,5 +586,6 @@
 			src="https://kit.fontawesome.com/81581fb069.js"
 			crossorigin="anonymous"
 		></script>
+        <script src="script.js"></script>
 	</body>
 </html>
